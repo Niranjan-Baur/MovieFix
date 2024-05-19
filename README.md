@@ -4,7 +4,7 @@ MovieFix Demo Video Link: https://drive.google.com/file/d/1Rs-KPG5HipHQwkzXeHo5h
 
 MovieFix APK File: https://drive.google.com/file/d/1eVuum7BsluL7h8c9lyStjJ_r1GtpCQAI/view?usp=sharing
 
-Note: Sometimes the API doesn't work well it returns `This site can't be reached`. This is why I'm attaching a video link for the preview if it does not work.
+Note: Sometimes the API doesn't work well it returns `This site can't be reached` and make sure you are connected to a strong network otherwise it can't fetch the responses from the API. This is why I'm attaching a video link for the preview if it does not work.
 
 ## Covered Topic
 1. Create custom UI components for the app, using React,
