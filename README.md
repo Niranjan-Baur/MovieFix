@@ -4,7 +4,7 @@ MovieFix Demo Video Link: https://drive.google.com/file/d/1Rs-KPG5HipHQwkzXeHo5h
 
 MovieFix APK File: https://drive.google.com/file/d/1eVuum7BsluL7h8c9lyStjJ_r1GtpCQAI/view?usp=sharing
 
-Note: Sometimes the API doesn't work well it returns `This site can't be reached`.
+Note: Sometimes the API doesn't work well it returns `This site can't be reached`. This is why I'm attaching a video link for the preview if it does not work.
 
 # Getting Started
 
