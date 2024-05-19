@@ -53,14 +53,10 @@ d - open Dev Menu
 j - open debugger (experimental, Hermes only)
 r - reload app
 ```
-Note: `j - open debugger (experimental, Hermes only)` This option will only come if you start Metro using `npm run debug` command from above.
+Note: `j - open debugger (experimental, Hermes only)` This option will only come if you start Metro using the `npm run debug` command from above.
 
 ### For Android
 
-Then just press `i` in the terminal to run this project in your _Android Emulator_ or _Android Device_ (if its connected to your machine)
+Then just press `a` in the terminal to run this project in your _Android Emulator_ or _Android Device_ (if it is connected to your machine)
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _Android Device_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app.
-
-
