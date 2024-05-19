@@ -1,4 +1,4 @@
-package com.baseapp
+package com.moviefix
 
 import android.app.Application
 import com.facebook.react.PackageList
