@@ -6,6 +6,28 @@ MovieFix APK File: https://drive.google.com/file/d/1eVuum7BsluL7h8c9lyStjJ_r1Gtp
 
 Note: Sometimes the API doesn't work well it returns `This site can't be reached`. This is why I'm attaching a video link for the preview if it does not work.
 
+## Covered Topic
+1. Create custom UI components for the app, using React,
+2. Display a list of movies sorted in descending order of popularity.
+3. Show the movie title, image, genre, cast, director, and a short description related to the movie in each Movies Details Screen.
+4. Load a total of only 20 movies for each year
+5. By default, when a user lands on the page, display a list of movies of the year 2012
+6. Implement smooth scrolling behavior to load more movies as the user scrolls in any direction i.e load movies of previous year when user scrolls up and load movies of next year when user scrolls down until the current year.
+7. As and when the user scrolls and movies are added to the list, make sure that this interaction is smooth and doesn’t cause any jitters.
+8. Provide a filter UI that allows users to filter movies by genre.
+9. Fetch genres from this API and show genres as filters
+10. When a user selects one or more genres, the list should only display movies of the selected genres. Please note that whenever a user selects a genre, a fresh list of movies should be fetched from the API for that particular genre.
+11. Write well-structured and maintainable code.
+12. You can use React, Vue, or any library to create your own reusable components
+13. Avoid using any pre-built component libraries (e.g., Bootstrap, Tailwind, etc.) for creating UI components.
+14. Implement this project in React Native instead of a web app.
+15. Ensuring smooth scrolling even when more and more movies are loaded in the DOM.
+
+## Topic not covered
+1. Implement a search bar which searches for the movie based on the search string and displays an infinite loading list of movies which matches the search.
+2. Use TypeScript for enhanced type safety and code quality.
+   
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till the "Creating a new application" step, before proceeding.
