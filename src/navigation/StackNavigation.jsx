@@ -3,15 +3,14 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../pages/Home/Home';
 import { Image } from 'react-native';
 import { imgSrc } from '../assets/imgSrc';
+import MovieDetails from '../pages/Home/MovieDetails';
 
 const Stack = createNativeStackNavigator();
 
 const StackNavigation = () => {
   console.log('StackNavigation')
   return (
-    <Stack.Navigator initialRouteName='Main' screenOptions={{
-
-    }}>
+    <Stack.Navigator initialRouteName='Main'>
       <Stack.Screen name="Home" component={Home} options={{
         headerTitle: () => (
           <Image
@@ -22,6 +21,16 @@ const StackNavigation = () => {
         ),
         headerStyle: {
           backgroundColor: '#202124',
+        }
+      }} />
+      <Stack.Screen name="MovieDetails" component={MovieDetails} options={{
+        title: 'Details',
+        headerStyle: {
+          backgroundColor: '#202124',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+          color: '#fff'
         }
       }} />
     </Stack.Navigator>
